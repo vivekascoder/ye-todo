@@ -2,6 +2,7 @@
 body {
   background: #000;
   color: #fff;
+  position: relative;
 }
 * {
   font-family: "Dank Mono", monospace;
@@ -10,4 +11,11 @@ body {
 .check {
   text-decoration: line-through;
 
+}
+
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
 }
